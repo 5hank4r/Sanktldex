@@ -31,5 +31,4 @@ git clone https://github.com/5hank4r/sanktldex.git; \
 cd sanktldex/cmd; \
 go build; \
 sudo mv sanktldex /usr/local/bin/; \
-gau --version;
 ```
