@@ -22,4 +22,4 @@ This Go tool allows you to extract base domains or subdomains from a list of URL
 ### Extract subdomains for a single domain:
 
 ```bash
-cat urls.txt | go run url2.go -f example.com -s
+cat urls.txt | sanktldex -f example.com -s
