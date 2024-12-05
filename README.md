@@ -1,4 +1,4 @@
-# domainex
+# sanktldex
 # Domain and Subdomain Extraction Tool
 
 This Go tool allows you to extract base domains or subdomains from a list of URLs. It supports single-domain extraction using the `-f` flag or multiple domains using the `-fL` flag, which takes a file containing domains.
@@ -23,3 +23,12 @@ This Go tool allows you to extract base domains or subdomains from a list of URL
 
 ```bash
 cat urls.txt | sanktldex -f example.com -s
+```
+
+## Example Usage From github :
+```git clone https://github.com/5hank4r/sanktldex.git; \
+cd sanktldex/cmd; \
+go build; \
+sudo mv sanktldex /usr/local/bin/; \
+gau --version;
+```
