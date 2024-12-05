@@ -27,8 +27,8 @@ cat urls.txt | sanktldex -f example.com -s
 
 ## Example Usage From github :
 ```
-git clone https://github.com/5hank4r/sanktldex.git; \
-cd sanktldex/cmd; \
-go build; \
-sudo mv sanktldex /usr/local/bin/; \
+git clone https://github.com/5hank4r/sanktldex.git
+cd sanktldex
+go build
+sudo mv sanktldex /usr/local/bin/
 ```
